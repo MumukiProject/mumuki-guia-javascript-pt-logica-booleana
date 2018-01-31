@@ -1,0 +1,8 @@
+---
+expectations:
+- binding: "*"
+  inspection: DeclaresFunction:eMaiorDeIdade
+- binding: "*"
+  inspection: DeclaresFunction:eMenorDeIdade
+- binding: eMenorDeIdade
+  inspection: Uses:eMaiorDeIdade
