@@ -1,0 +1,1 @@
+Cada uma das funções representa **um estado de dois possíveis**: ser maior ou ser menor de idade. Você não pode ser ambos ao mesmo tempo e também não pode evitar pertencer a algum dos dois grupos e é por isso que dizemos que são complementares e que, juntos, formam o _conjunto universal_.
