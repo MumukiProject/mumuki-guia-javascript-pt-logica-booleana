@@ -1,8 +1,8 @@
 E se delegamos? Poderíamos separar a lógica da seguinte maneira:
 
 ``` javascript
-function podeSeAposentar(edade, sexo, anosContribuicoes) { 
-  return atendeEdadeMinima(edade, sexo) && 
+function podeSeAposentar(idade, sexo, anosContribuicoes) { 
+  return atendeIdadeMinima(idade, sexo) && 
   temSuficientesContribuicoes (anosContribuicoes);
 }
 ```
