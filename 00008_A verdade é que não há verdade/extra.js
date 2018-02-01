@@ -77,3 +77,15 @@ function maeDe(pessoa) {
 function paiDe(pessoa) {
   return pessoa.pai.nome;
 };
+
+function elesTemOMesmoPai(umaPessoa, outraPessoa) {
+  return paiDe(umaPessoa) == paiDe(outraPessoa);
+};
+ 
+function elesTemAMesmaMae(umaPessoa, outraPessoa) {
+  return maeDe(umaPessoa) == maeDe(outraPessoa);
+};
+ 
+function meioIrmaos(umaPessoa, outraPessoa) {
+  return elesTemAMesmaMae(umaPessoa, outraPessoa) && !elesTemOMesmoPai(umaPessoa, outraPessoa) || !elesTemAMesmaMae(umaPessoa, outraPessoa) && elesTemOMesmoPai(umaPessoa, outraPessoa);
+};
