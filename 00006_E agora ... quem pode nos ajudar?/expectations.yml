@@ -1,0 +1,10 @@
+---
+expectations:
+- binding: "*"
+  inspection: DeclaresFunction:estaFechado
+- binding: "*"
+  inspection: DeclaresFunction:eFimDeSemana
+- binding: "*"
+  inspection: DeclaresFunction:eDiaDeSemana
+- binding: eDiaDeSemana
+  inspection: Uses:eFimDeSemana
