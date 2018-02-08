@@ -7,5 +7,5 @@ function eImpar(numero) {
   return !ePar(numero);
 }
 ```
-eMaiorDeEdade
+
 > Agora é a sua vez! Defina `eMaiorDeIdade` e, logo depois, `eMenorDeIdade` a partir dela.
