@@ -1,9 +1,9 @@
 it("um filósofo grego que caminha 5kms por dia é um peripatético", function() {
-  assert.equal((ePeripatetico("filosofo", "griego", 5) || ePeripatetico("filósofo", "griego", 5)), true);
+  assert.equal((ePeripatetico("filosofo", "grego", 5) || ePeripatetico("filósofo", "grego", 5)), true);
 })
 
 it("Um filósofo grego que caminha 2kms por dia não é um peripatético", function() {
-  assert.equal((ePeripatetico("filosofo", "griego", 2) || ePeripatetico("filósofo", "griego", 2)), false);
+  assert.equal((ePeripatetico("filosofo", "grego", 2) || ePeripatetico("filósofo", "grego", 2)), false);
 })
 
 it("um filósofo argentino que caminha 5kms por dia não é um peripatético", function() {
