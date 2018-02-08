@@ -2,3 +2,5 @@
 expectations:
 - binding: "*"
   inspection: DeclaresFunction:podeSeAposentar
+- binding: "*"
+  inspection: Except:DoesTypeTest
